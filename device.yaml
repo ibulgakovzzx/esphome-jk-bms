@@ -288,6 +288,4 @@ text_sensor:
       name: "${name} software version"
     hardware_version:
       name: "${name} hardware version"
-  - platform: ble_scanner  
-    name: "BLE Devices Scanner"
     
