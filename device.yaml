@@ -11,7 +11,7 @@ substitutions:
 esphome:
   name: ${name}
   comment: ${device_description}
-  min_version: 2024.6.0
+  min_version: 2025.11.0
   project:
     name: "syssi.esphome-jk-bms"
     version: 2.2.0
@@ -52,7 +52,7 @@ ota:
 
 esp32_ble_tracker:
   scan_parameters:
-    active: false
+    active: true
 
 ble_client:
   - mac_address: ${mac_address}
