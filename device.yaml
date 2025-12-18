@@ -17,9 +17,9 @@ esphome:
     version: 2.2.0
 
 esp32:
-  board: esp32dev
+  board: esp32-c6-devkitc-1
   framework:
-    type: esp-idf
+    type: arduino
 
 external_components:
   - source: ${external_components_source}
