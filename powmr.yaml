@@ -61,7 +61,7 @@ wifi:
   password: !secret wifi_password
   ap:
     ssid: "${node_name} Fallback"
-    password: !secret "12345678"
+    password: "12345678"
 
 
 ota:
