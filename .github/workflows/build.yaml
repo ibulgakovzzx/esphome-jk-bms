@@ -42,10 +42,10 @@ jobs:
           if grep -q "!secret" "powmr.yaml"; then
             echo "🔐 Создаю файл secrets.yaml"
             cat > secrets.yaml << 'EOF'
-          wifi_ssid: "${{ secrets.WIFI_SSID }}"
-          wifi_password: "${{ secrets.WIFI_PASSWORD }}"
-          api_encryption_key: "${{ secrets.API_ENCRYPTION_KEY }}"
-          ota_password: "${{ secrets.OTA_PASSWORD }}"
+          wifi_ssid: "TP-Link_F0F4"
+          wifi_password: "07762185"
+          api_encryption_key: "v/4PudvprkqpraqxmnHa0bmTvqDfNjU8/cT2RGcwHlY="
+          ota_password: "07762185"
           EOF
             echo "✅ Секреты настроены"
           else
